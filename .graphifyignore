@@ -1,0 +1,5 @@
+# Directories to ignore
+__pycache__/
+*.pyc
+.pytest_cache/
+tests/

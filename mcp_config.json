@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "CodeGraphContext": {
+      "command": ".venv\\Scripts\\python.exe",
+      "args": ["-m", "codegraphcontext", "--db", "ladybugdb", "mcp", "start"],
+      "cwd": ".",
+      "env": {
+        "LBUG_C_API_LIB_PATH": "lib\\lbug_shared.dll"
+      },
+      "description": "CodeGraphContext MCP server running from the project virtual environment"
+    },
+    "CodeUnderstandingAgent": {
+      "command": ".venv\\Scripts\\python.exe",
+      "args": ["-m", "src.server"],
+      "cwd": ".",
+      "description": "Custom bridge server reading Graphify graph.json via JSON-RPC on port 8765"
+    }
+  }
+}

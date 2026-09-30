@@ -1,0 +1,4 @@
+# No external runtime dependencies required (uses Python standard library)
+
+# Optional development tools:
+pytest>=7.0.0
